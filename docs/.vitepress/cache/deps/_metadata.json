@@ -1,62 +1,32 @@
 {
-  "hash": "1d918ea1",
-  "browserHash": "86073b8c",
+  "hash": "ca7d2bca",
+  "browserHash": "d9774170",
   "optimized": {
     "vue": {
-      "src": "../../../../../node_modules/.pnpm/vue@3.2.47/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "a9e24167",
+      "fileHash": "946fe9f5",
       "needsInterop": false
     },
-    "lodash.throttle": {
-      "src": "../../../../../components/node_modules/lodash.throttle/index.js",
-      "file": "lodash__throttle.js",
-      "fileHash": "c3955833",
-      "needsInterop": true
-    },
-    "lodash.merge": {
-      "src": "../../../../../components/node_modules/lodash.merge/index.js",
-      "file": "lodash__merge.js",
-      "fileHash": "59a35849",
-      "needsInterop": true
-    },
-    "echarts": {
-      "src": "../../../../../components/node_modules/echarts/index.js",
-      "file": "echarts.js",
-      "fileHash": "467180f2",
+    "@huyuchen/visual": {
+      "src": "../../../../node_modules/@huyuchen/visual/dist/es/index.js",
+      "file": "@huyuchen_visual.js",
+      "fileHash": "9680efa6",
       "needsInterop": false
     },
     "naive-ui": {
-      "src": "../../../../../node_modules/.pnpm/naive-ui@2.34.3_vue@3.2.47/node_modules/naive-ui/es/index.js",
+      "src": "../../../../node_modules/naive-ui/es/index.js",
       "file": "naive-ui.js",
-      "fileHash": "d7295169",
-      "needsInterop": false
-    },
-    "element-plus": {
-      "src": "../../../../../components/node_modules/element-plus/es/index.mjs",
-      "file": "element-plus.js",
-      "fileHash": "65a80d0e",
-      "needsInterop": false
-    },
-    "echarts-wordcloud": {
-      "src": "../../../../../node_modules/.pnpm/echarts-wordcloud@2.1.0_echarts@5.4.2/node_modules/echarts-wordcloud/index.js",
-      "file": "echarts-wordcloud.js",
-      "fileHash": "7ae372a2",
+      "fileHash": "d6b36383",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-3JLVOCYU": {
-      "file": "chunk-3JLVOCYU.js"
+    "chunk-D3UFCWJ2": {
+      "file": "chunk-D3UFCWJ2.js"
     },
-    "chunk-D4H6TQL6": {
-      "file": "chunk-D4H6TQL6.js"
-    },
-    "chunk-DTNMO2BQ": {
-      "file": "chunk-DTNMO2BQ.js"
-    },
-    "chunk-4EOJPDL2": {
-      "file": "chunk-4EOJPDL2.js"
+    "chunk-SRL5YSQB": {
+      "file": "chunk-SRL5YSQB.js"
     }
   }
 }

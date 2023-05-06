@@ -18,7 +18,7 @@
     "vue": "^3.2.47"
   },
   "dependencies": {
-    "@huyuchen/visual": "workspace:^",
+    "@huyuchen/visual": "^1.1.6",
     "naive-ui": "^2.34.3"
   }
 }
