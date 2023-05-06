@@ -19,7 +19,6 @@
   },
   "dependencies": {
     "@huyuchen/visual": "workspace:^",
-    "naive-ui": "^2.34.3",
-    "test": "^1.1.4"
+    "naive-ui": "^2.34.3"
   }
 }
