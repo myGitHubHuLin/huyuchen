@@ -1,10 +1,10 @@
 export default {
+  base: './', // 使用相对路径
+  description: '@huyuchen/visual',
+  ignoreDeadLinks: true, // VitePress 在构建时不会因为死链接而导致构建失败。
   themeConfig: {
     siteTitle: '@huyuchen/visual',
-    description: '@huyuchen/visual',
-    ignoreDeadLinks: true, // VitePress 在构建时不会因为死链接而导致构建失败。
     logo: '/login.jpg',
-    base: './', // 使用相对路径
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2019-present Evan You',
