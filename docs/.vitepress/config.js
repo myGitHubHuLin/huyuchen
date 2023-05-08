@@ -1,7 +1,7 @@
 export default {
   themeConfig: {
     siteTitle: '@huyuchen/visual',
-    description: 'Vite & Vue @huyuchen/visual',
+    description: '@huyuchen/visual',
     ignoreDeadLinks: true, // VitePress 在构建时不会因为死链接而导致构建失败。
     logo: '/login.jpg',
     // base: 'huyuchen.github.io/',
