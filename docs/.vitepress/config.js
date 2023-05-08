@@ -4,7 +4,7 @@ export default {
     description: '@huyuchen/visual',
     ignoreDeadLinks: true, // VitePress 在构建时不会因为死链接而导致构建失败。
     logo: '/login.jpg',
-    base: './',
+    base: './', // 使用相对路径
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2019-present Evan You',
