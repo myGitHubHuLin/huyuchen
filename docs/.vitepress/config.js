@@ -7,7 +7,7 @@ export default {
     logo: '/login.jpg',
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present Evan You',
+      copyright: 'Copyright © 2023-present hulin && huyuchen',
     },
     nav: [
       { text: '指南', link: '/guild/introduce' },
