@@ -54,6 +54,10 @@ export default {
               link: '/components/fun/HuNumberRoll',
             },
             {
+              text: '数字翻页效果',
+              link: '/components/fun/HuTurnPage',
+            },
+            {
               text: '大屏容器',
               link: '/components/fun/HuLargeScreen',
             },
