@@ -12,7 +12,7 @@
 谪居正是君恩厚，养拙刚于戍卒宜。  
 戏与山妻谈故事，试吟断送老头皮。
 
-[![An old rock in the desert](./pubilc/npm.png 'Shiprock, New Mexico by Beau Rogers')]
+<!-- [![An old rock in the desert](./pubilc/npm.png 'Shiprock, New Mexico by Beau Rogers')] -->
 
 <script setup>
 import { useRouter } from 'vitepress'

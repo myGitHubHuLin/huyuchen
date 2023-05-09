@@ -17,7 +17,7 @@
     "vue": "^3.2.47"
   },
   "dependencies": {
-    "@huyuchen/visual": "^1.3.7",
+    "@huyuchen/visual": "^1.3.9",
     "echarts": "^5.4.2",
     "element-plus": "^2.3.4",
     "lodash.merge": "^4.6.2",
