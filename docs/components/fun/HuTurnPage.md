@@ -5,7 +5,7 @@
 <HuTurnPage :value="value" color="red" />
 
 <script setup>
-import { reactive, onMounted,onBeforeUnmount } from "vue"
+import { reactive, onMounted,onBeforeUnmount,toRefs } from "vue"
 const data = reactive({
   value: 0,
   timer: null
@@ -23,6 +23,7 @@ onBeforeUnmount(()=> {
    clearTimeout(data.timer)
    data.timer=null
 })
+const {value} = toRefs(data)
 </script>
 
 ::: details 显示代码
@@ -31,7 +32,7 @@ onBeforeUnmount(()=> {
 <HuTurnPage :value="value" color="red" />
 
 <script setup>
-  import { reactive, onMounted, onBeforeUnmount } from 'vue'
+  import { reactive, onMounted, onBeforeUnmount, toRefs } from 'vue'
   const data = reactive({
     value: 0,
     timer: null,
@@ -49,6 +50,7 @@ onBeforeUnmount(()=> {
     clearTimeout(data.timer)
     data.timer = null
   })
+  const { value } = toRefs(data)
 </script>
 ```
 
