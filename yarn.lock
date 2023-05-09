@@ -307,10 +307,10 @@
   dependencies:
     "@floating-ui/core" "^1.2.6"
 
-"@huyuchen/visual@^1.2.7":
-  version "1.3.6"
-  resolved "https://registry.yarnpkg.com/@huyuchen/visual/-/visual-1.3.6.tgz#d7c24a14a83fd659ad4c32483d09fcec1f14d257"
-  integrity sha512-ZDbD+/5YciYJhKaFe+dBuOweLcxqjBNKNnScYY4g3cL2WS5orGIhgpxRZUwT3InlwUK3FQzmHZkbSRKX0PZeTA==
+"@huyuchen/visual@^1.3.7":
+  version "1.3.7"
+  resolved "https://registry.yarnpkg.com/@huyuchen/visual/-/visual-1.3.7.tgz#9a82fcf68dc03a79a98d2f97aeb91e45e0633c92"
+  integrity sha512-fQgjvZrbhFup1137NZPpmY/fuyxLvJVsB3JBDMidj/LXxHJ90nlMz++Q41aTZhJdoqFC0wn+7mUqPe+erlNFrA==
 
 "@juggle/resize-observer@^3.3.1":
   version "3.4.0"
