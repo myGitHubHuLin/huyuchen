@@ -1,102 +1,109 @@
 export default {
-  base: '/huyuchen', // 使用github.io后面路径
-  description: '@huyuchen/visual',
+  base: "/huyuchen", // 使用github.io后面路径
+  description: "@huyuchen/visual",
   ignoreDeadLinks: true, // VitePress 在构建时不会因为死链接而导致构建失败。
   themeConfig: {
-    siteTitle: '@huyuchen/visual',
-    logo: '/login.jpg',
+    siteTitle: "@huyuchen/visual",
+    description: "Vite & Vue @huyuchen/visual",
+    ignoreDeadLinks: true, // VitePress 在构建时不会因为死链接而导致构建失败。
+    logo: "/login.jpg",
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023-present hulin && huyuchen',
+      message: "Released under the MIT License.",
+      copyright: "Copyright © 2019-present Evan You",
     },
     nav: [
-      { text: '指南', link: '/guild/introduce' },
-      { text: '组件', link: '/components/base/HuLayoutTable' },
+      { text: "指南", link: "/guild/introduce" },
+      { text: "组件", link: "/components/base/HuLayoutTable" },
     ],
-    socialLinks: [{ text: '自定义组件库', icon: 'github', link: 'https://gitee.com/hu__lin/pnpm-package' }],
+    socialLinks: [{ text: "自定义组件库", icon: "github", link: "https://gitee.com/hu__lin/pnpm-package" }],
     sidebar: {
-      '/': [
+      "/": [
         {
-          text: '引入',
+          text: "引入",
           items: [
             {
-              text: '介绍',
-              link: '/guild/introduce',
+              text: "介绍",
+              link: "/guild/introduce",
             },
             {
-              text: '快速开始',
-              link: '/guild/quickstart',
+              text: "快速开始",
+              link: "/guild/quickstart",
             },
           ],
         },
         {
-          text: '通用基础组件',
+          text: "通用基础组件",
           items: [
             {
-              text: '自定义行列table',
-              link: '/components/base/HuLayoutTable',
+              text: "自定义行列table",
+              link: "/components/base/HuLayoutTable",
             },
             {
-              text: '数据百分比内容',
-              link: '/components/base/HuPercentageSize',
+              text: "数据百分比内容",
+              link: "/components/base/HuPercentageSize",
             },
           ],
         },
         {
-          text: '功能组件',
+          text: "功能组件",
           items: [
             {
-              text: '波形图',
-              link: '/components/fun/HuElectrocardiogram',
+              text: "波形图",
+              link: "/components/fun/HuElectrocardiogram",
             },
             {
-              text: '数字缓动画',
-              link: '/components/fun/HuNumberRoll',
+              text: "数字缓动画",
+              link: "/components/fun/HuNumberRoll",
             },
             {
-              text: '数字翻页效果',
-              link: '/components/fun/HuTurnPage',
+              text: "大屏容器",
+              link: "/components/fun/HuLargeScreen",
             },
             {
-              text: '大屏容器',
-              link: '/components/fun/HuLargeScreen',
-            },
-            {
-              text: '动态词云',
-              link: '/components/fun/HuWordCloud',
+              text: "动态词云",
+              link: "/components/fun/HuWordCloud",
             },
           ],
         },
         {
-          text: 'echarts可视化',
+          text: "echarts可视化",
           items: [
             {
-              text: '速度仪表',
-              link: '/components/echarts/HuSpeed',
+              text: "速度仪表",
+              link: "/components/echarts/HuSpeed",
             },
             {
-              text: '数据大小气泡',
-              link: '/components/echarts/HuBubble',
+              text: "数据大小气泡",
+              link: "/components/echarts/HuBubble",
             },
             {
-              text: '基础图形',
-              link: '/components/echarts/HuBaseChart',
+              text: "基础图形",
+              link: "/components/echarts/HuBaseChart",
             },
             {
-              text: '柱状图',
-              link: '/components/echarts/HuShapeChart',
+              text: "柱状图",
+              link: "/components/echarts/HuShapeChart",
             },
             {
-              text: '面积图',
-              link: '/components/echarts/HuAreaChart',
+              text: "面积图",
+              link: "/components/echarts/HuAreaChart",
             },
             {
-              text: '折线图',
-              link: '/components/echarts/HuLineChart',
+              text: "折线图",
+              link: "/components/echarts/HuLineChart",
             },
             {
-              text: '饼图',
-              link: '/components/echarts/HuPieChart',
+              text: "饼图",
+              link: "/components/echarts/HuPieChart",
+            },
+          ],
+        },
+        {
+          text: "动画组件",
+          items: [
+            {
+              text: "边框流动",
+              link: "/components/animation/HuBorderFlow",
             },
           ],
         },
