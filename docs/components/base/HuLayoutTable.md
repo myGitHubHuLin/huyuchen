@@ -12,6 +12,7 @@
 
  <script setup>
 import { reactive, toRefs, h } from "vue"
+import 'element-plus/dist/index.css'
 const tableData = {
   name: "huyuchen",
   sex: 1,
@@ -70,6 +71,7 @@ const { column } = toRefs(data)
 
 <script setup>
   import { reactive, toRefs, h } from 'vue'
+  import 'element-plus/dist/index.css'
   const tableData = {
     name: 'huyuchen',
     sex: 1,
