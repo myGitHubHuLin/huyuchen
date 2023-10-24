@@ -210,10 +210,10 @@
   "resolved" "https://registry.npmjs.org/@floating-ui/utils/-/utils-0.1.6.tgz"
   "version" "0.1.6"
 
-"@huyuchen/visual@^1.4.0":
-  "integrity" "sha512-NX7qjtoLLMI641gHW9DMtUGHPwx828KBkzChgX1arAXpMNQ5BH37pQLp65EXa2ItuZ0aWfM5uvOQyBT45hHvGg=="
-  "resolved" "https://registry.npmjs.org/@huyuchen/visual/-/visual-1.4.0.tgz"
-  "version" "1.4.0"
+"@huyuchen/visual@^1.4.1":
+  "integrity" "sha512-A7S0sjp5vQVraxRGvyGPZ5jwEN9YdFyuIk64RcXaKpWdpd+15XCFydnQdYVvVEMt1ykFKe5BZlgJBybbMxkxvA=="
+  "resolved" "https://registry.npmjs.org/@huyuchen/visual/-/visual-1.4.1.tgz"
+  "version" "1.4.1"
 
 "@jridgewell/sourcemap-codec@^1.4.15":
   "integrity" "sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg=="
