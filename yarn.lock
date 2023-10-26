@@ -210,10 +210,13 @@
   "resolved" "https://registry.npmjs.org/@floating-ui/utils/-/utils-0.1.6.tgz"
   "version" "0.1.6"
 
-"@huyuchen/visual@^1.4.2":
-  "integrity" "sha512-7JviQW/XBg3qaT1jq2nCcRVNShu0YtfSn7SynuveNUmDMtuHGhS4IYyxjyUtoxMcJzFd6pWdbtgEsGyxnQV0qA=="
-  "resolved" "https://registry.npmjs.org/@huyuchen/visual/-/visual-1.4.2.tgz"
-  "version" "1.4.2"
+"@huyuchen/visual@^1.4.2", "@huyuchen/visual@^1.4.3":
+  "integrity" "sha512-6JTSQhwAu/GNO3dve9K5uESa63kJYYF9ws9Mhh8mlh7IgdUWOVuOnJMUIp03Y3QX6jFlWLrvXIXHbKukyTc76Q=="
+  "resolved" "https://registry.npmjs.org/@huyuchen/visual/-/visual-1.4.3.tgz"
+  "version" "1.4.3"
+  dependencies:
+    "@huyuchen/visual" "^1.4.2"
+    "vue-virtual-scroller" "^2.0.0-beta.8"
 
 "@jridgewell/sourcemap-codec@^1.4.15":
   "integrity" "sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg=="
@@ -678,6 +681,11 @@
   "resolved" "https://registry.npmjs.org/minisearch/-/minisearch-6.0.1.tgz"
   "version" "6.0.1"
 
+"mitt@^2.1.0":
+  "integrity" "sha512-ILj2TpLiysu2wkBbWjAmww7TkZb65aiQO+DkVdUTBpBXq+MHYiETENkKFMtsJZX1Lf4pe4QOrTSjIfUwN5lRdg=="
+  "resolved" "https://registry.npmjs.org/mitt/-/mitt-2.1.0.tgz"
+  "version" "2.1.0"
+
 "naive-ui@^2.34.3":
   "integrity" "sha512-PdnLpOip1LQaKs5+rXLZoPDPQkTq26TnHWeABvUA2eOQjtHxE4+TQvj0Jq/W8clM2On/7jptoGmenLt48G3Bhg=="
   "resolved" "https://registry.npmjs.org/naive-ui/-/naive-ui-2.35.0.tgz"
@@ -867,6 +875,25 @@
   "integrity" "sha512-gt58r2ogsNQeVoQ3EhoUAvUsH9xviydl0dWJj7dabBC/2L4uBId7ujtCwDRD0JhkGsV1i0CtfLAeyYKBht9oWg=="
   "resolved" "https://registry.npmjs.org/vue-demi/-/vue-demi-0.14.0.tgz"
   "version" "0.14.0"
+
+"vue-observe-visibility@^2.0.0-alpha.1":
+  "integrity" "sha512-flFbp/gs9pZniXR6fans8smv1kDScJ8RS7rEpMjhVabiKeq7Qz3D9+eGsypncjfIyyU84saU88XZ0zjbD6Gq/g=="
+  "resolved" "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-2.0.0-alpha.1.tgz"
+  "version" "2.0.0-alpha.1"
+
+"vue-resize@^2.0.0-alpha.1":
+  "integrity" "sha512-7+iqOueLU7uc9NrMfrzbG8hwMqchfVfSzpVlCMeJQe4pyibqyoifDNbKTZvwxZKDvGkB+PdFeKvnGZMoEb8esg=="
+  "resolved" "https://registry.npmjs.org/vue-resize/-/vue-resize-2.0.0-alpha.1.tgz"
+  "version" "2.0.0-alpha.1"
+
+"vue-virtual-scroller@^2.0.0-beta.8":
+  "integrity" "sha512-b8/f5NQ5nIEBRTNi6GcPItE4s7kxNHw2AIHLtDp+2QvqdTjVN0FgONwX9cr53jWRgnu+HRLPaWDOR2JPI5MTfQ=="
+  "resolved" "https://registry.npmjs.org/vue-virtual-scroller/-/vue-virtual-scroller-2.0.0-beta.8.tgz"
+  "version" "2.0.0-beta.8"
+  dependencies:
+    "mitt" "^2.1.0"
+    "vue-observe-visibility" "^2.0.0-alpha.1"
+    "vue-resize" "^2.0.0-alpha.1"
 
 "vue@^3.0.0", "vue@^3.0.0-0 || ^2.6.0", "vue@^3.0.11", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.2.47", "vue@^3.3.4", "vue@3.3.4":
   "integrity" "sha512-VTyEYn3yvIeY1Py0WaYGZsXnz3y5UnGi62GjVEqvEGPl6nxbOrCXbVOTQWBEJUqAyTUk2uJ5JLVnYJ6ZzGbrSw=="
