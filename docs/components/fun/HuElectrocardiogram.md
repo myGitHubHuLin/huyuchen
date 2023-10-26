@@ -6,7 +6,7 @@
     :mointerData="ecg"
     :option="option"
     ref="myRef"
-    style="background-color: #000"
+    style="background-color: #000;width: 750px;height:250px"
   />
 
  <script setup>

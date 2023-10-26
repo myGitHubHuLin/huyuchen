@@ -42,6 +42,10 @@ export default {
               text: "数据百分比内容",
               link: "/components/base/HuPercentageSize",
             },
+            {
+              text: "select下拉大数据量虚拟加载框",
+              link: "/components/fun/HuVirtualSelect",
+            },
           ],
         },
         {
