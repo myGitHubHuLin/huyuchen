@@ -18,11 +18,8 @@
     "vue": "^3.3.4"
   },
   "dependencies": {
-    "@huyuchen/visual": "^1.4.3",
-    "echarts": "^5.4.2",
+    "@huyuchen/visual": "^1.4.4",
     "element-plus": "^2.4.0",
-    "lodash.merge": "^4.6.2",
-    "lodash.throttle": "^4.1.1",
     "naive-ui": "^2.34.3",
     "sass": "^1.62.1"
   }

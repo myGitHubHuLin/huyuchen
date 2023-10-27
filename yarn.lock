@@ -210,10 +210,10 @@
   "resolved" "https://registry.npmjs.org/@floating-ui/utils/-/utils-0.1.6.tgz"
   "version" "0.1.6"
 
-"@huyuchen/visual@^1.4.2", "@huyuchen/visual@^1.4.3":
-  "integrity" "sha512-6JTSQhwAu/GNO3dve9K5uESa63kJYYF9ws9Mhh8mlh7IgdUWOVuOnJMUIp03Y3QX6jFlWLrvXIXHbKukyTc76Q=="
-  "resolved" "https://registry.npmjs.org/@huyuchen/visual/-/visual-1.4.3.tgz"
-  "version" "1.4.3"
+"@huyuchen/visual@^1.4.2", "@huyuchen/visual@^1.4.4":
+  "integrity" "sha512-D883oGUNjoub2K4Py9xxXFlmUpdOdE6/hxTi1VpXfHC3AY97dEoB+Zs4OFfNRe7UMM4rAGjaMIKENDBAqwfiEA=="
+  "resolved" "https://registry.npmjs.org/@huyuchen/visual/-/visual-1.4.4.tgz"
+  "version" "1.4.4"
   dependencies:
     "@huyuchen/visual" "^1.4.2"
     "vue-virtual-scroller" "^2.0.0-beta.8"

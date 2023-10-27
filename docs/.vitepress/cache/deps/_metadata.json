@@ -1,23 +1,23 @@
 {
-  "hash": "d70bd500",
-  "browserHash": "2900ebf3",
+  "hash": "49ab4fed",
+  "browserHash": "73716a47",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "b1b05d1e",
+      "fileHash": "677c7bc1",
       "needsInterop": false
     },
     "@huyuchen/visual": {
       "src": "../../../../node_modules/@huyuchen/visual/dist/es/index.js",
       "file": "@huyuchen_visual.js",
-      "fileHash": "adf381f9",
+      "fileHash": "1ff98799",
       "needsInterop": false
     },
     "naive-ui": {
       "src": "../../../../node_modules/naive-ui/es/index.js",
       "file": "naive-ui.js",
-      "fileHash": "c8b8be4a",
+      "fileHash": "cade31f8",
       "needsInterop": false
     }
   },
