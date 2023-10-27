@@ -1,32 +1,32 @@
 {
-  "hash": "49ab4fed",
-  "browserHash": "73716a47",
+  "hash": "b33a0de2",
+  "browserHash": "a0754e15",
   "optimized": {
     "vue": {
-      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "src": "../../../../node_modules/.pnpm/vue@3.3.4/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "677c7bc1",
+      "fileHash": "5847696a",
       "needsInterop": false
     },
     "@huyuchen/visual": {
-      "src": "../../../../node_modules/@huyuchen/visual/dist/es/index.js",
+      "src": "../../../../node_modules/.pnpm/@huyuchen+visual@1.4.4_echarts@5.4.3_element-plus@2.4.0_lodash.merge@4.6.2_lodash.throttle@4._jkt453adhh4w5lgba6vskm7x4m/node_modules/@huyuchen/visual/dist/es/index.js",
       "file": "@huyuchen_visual.js",
-      "fileHash": "1ff98799",
+      "fileHash": "1bf3a9c2",
       "needsInterop": false
     },
     "naive-ui": {
-      "src": "../../../../node_modules/naive-ui/es/index.js",
+      "src": "../../../../node_modules/.pnpm/naive-ui@2.34.3_vue@3.3.4/node_modules/naive-ui/es/index.js",
       "file": "naive-ui.js",
-      "fileHash": "cade31f8",
+      "fileHash": "a3a5a06a",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-5XFQNUXS": {
-      "file": "chunk-5XFQNUXS.js"
+    "chunk-6ZJU4S6O": {
+      "file": "chunk-6ZJU4S6O.js"
     },
-    "chunk-K6HDTRIW": {
-      "file": "chunk-K6HDTRIW.js"
+    "chunk-L2W7MENG": {
+      "file": "chunk-L2W7MENG.js"
     }
   }
 }
