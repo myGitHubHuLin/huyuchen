@@ -210,10 +210,10 @@
   "resolved" "https://registry.npmjs.org/@floating-ui/utils/-/utils-0.1.6.tgz"
   "version" "0.1.6"
 
-"@huyuchen/visual@^1.4.5":
-  "integrity" "sha512-1JRp7IerjHKyHly+BBvDyuwzAb39twppsXZH42gt9j61pEn60dU+Ixuurqh4gdWLPsoer1kU5SVfMndzRCt5kQ=="
-  "resolved" "https://registry.npmjs.org/@huyuchen/visual/-/visual-1.4.5.tgz"
-  "version" "1.4.5"
+"@huyuchen/visual@^1.4.9":
+  "integrity" "sha512-UHDhSh6cWKlvFhPH5xlaK9tySVfesCrsjjcfH5YEK/IneMirDDawTW3m3C+dIFepCPd2DNFy8CnqghqbSHhf9w=="
+  "resolved" "https://registry.npmjs.org/@huyuchen/visual/-/visual-1.4.9.tgz"
+  "version" "1.4.9"
   dependencies:
     "echarts" "^5.4.2"
     "element-plus" "^2.3.4"

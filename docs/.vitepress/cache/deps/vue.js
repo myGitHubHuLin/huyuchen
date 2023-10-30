@@ -21,7 +21,7 @@ import {
   cloneVNode,
   compatUtils,
   compile,
-  computed2 as computed,
+  computed,
   createApp,
   createBaseVNode,
   createBlock,
@@ -153,7 +153,7 @@ import {
   withMemo,
   withModifiers,
   withScopeId
-} from "./chunk-L2W7MENG.js";
+} from "./chunk-3HV43HOE.js";
 export {
   BaseTransition,
   BaseTransitionPropsValidators,
