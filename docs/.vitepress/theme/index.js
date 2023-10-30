@@ -1,4 +1,6 @@
 import DefaultTheme from "vitepress/theme"
+// import { inBrowser } from "vitepress"
+// import { onMounted } from "vue"
 import HuUi from "@huyuchen/visual"
 import "@huyuchen/visual/dist/es/style.css"
 import "element-plus/dist/index.css"
@@ -10,8 +12,17 @@ import naiveUi from "naive-ui"
 
 export default {
   ...DefaultTheme,
-  enhanceApp: async ({ app }) => {
-    app.use(HuUi)
+  async enhanceApp({ app }) {
     app.use(naiveUi)
+    app.use(HuUi)
   },
+  // setup() {
+  //   onMounted(() => {
+  //     // inBrowser && app.use(HuUi)
+  //     import("@huyuchen/visual").then(HuUi => {
+  //       app.use(HuUi)
+  //     })
+  //     app.use(naiveUi)
+  //   })
+  // },
 }

@@ -1,3 +1,4 @@
+// import { defineConfig } from "vitepress"
 export default {
   base: "/huyuchen", // 使用github.io后面路径
   description: "@huyuchen/visual",
@@ -114,4 +115,16 @@ export default {
       ],
     },
   },
+  // vite: {
+  //   build: {
+  //     rollupOptions: {
+  //       external: ["@huyuchen/visual"], // Add external module
+  //       output: {
+  //         globals: {
+  //           "@huyuchen/visual": "HuUi", // Provide global variable name for the external module
+  //         },
+  //       },
+  //     },
+  //   },
+  // },
 }

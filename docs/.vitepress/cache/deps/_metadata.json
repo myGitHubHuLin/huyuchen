@@ -1,29 +1,32 @@
 {
-  "hash": "fd771ebf",
-  "browserHash": "70e2a0fe",
+  "hash": "1ad02846",
+  "browserHash": "dcdabf3e",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "65c16594",
+      "fileHash": "47a917fa",
       "needsInterop": false
     },
     "@huyuchen/visual": {
       "src": "../../../../node_modules/@huyuchen/visual/dist/es/index.js",
       "file": "@huyuchen_visual.js",
-      "fileHash": "f9aab99c",
+      "fileHash": "41fa4729",
       "needsInterop": false
     },
     "naive-ui": {
       "src": "../../../../node_modules/naive-ui/es/index.js",
       "file": "naive-ui.js",
-      "fileHash": "cf87f05e",
+      "fileHash": "ab6cb873",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-3HV43HOE": {
-      "file": "chunk-3HV43HOE.js"
+    "chunk-5XFQNUXS": {
+      "file": "chunk-5XFQNUXS.js"
+    },
+    "chunk-K6HDTRIW": {
+      "file": "chunk-K6HDTRIW.js"
     }
   }
 }

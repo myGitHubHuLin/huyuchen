@@ -1,7 +1,6 @@
 # select下拉大数据量虚拟加载框
 
 ---
-
 <HuVirtualSelect :option="sizeData" v-model:value="value" key-field="value"></HuVirtualSelect>
 <script setup>
 import { ref } from "vue"
