@@ -12,7 +12,7 @@
 
  <script setup>
 import { reactive, toRefs, h } from "vue"
-import 'element-plus/dist/index.css'
+// import 'element-plus/dist/index.css'
 const tableData = {
   name: "huyuchen",
   sex: 1,

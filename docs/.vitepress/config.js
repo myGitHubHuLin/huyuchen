@@ -110,6 +110,10 @@ export default {
               text: "边框流动",
               link: "/components/animation/HuBorderFlow",
             },
+            {
+              text: "边框流动-svg",
+              link: "/components/animation/HuBorderFlowSvg",
+            },
           ],
         },
       ],
