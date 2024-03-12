@@ -315,10 +315,10 @@
   resolved "https://registry.npmjs.org/@floating-ui/utils/-/utils-0.1.6.tgz"
   integrity sha512-OfX7E2oUDYxtBvsuS4e/jSn4Q9Qb6DzgeYtsAdkPZ47znpoNsMgZw0+tVijiv3uGNR6dgNlty6r9rzIzHjtd/A==
 
-"@huyuchen/visual@^1.5.9":
-  version "1.5.9"
-  resolved "https://registry.yarnpkg.com/@huyuchen/visual/-/visual-1.5.9.tgz#19d464cb02cae43b8cc0a12069e5ba6ef632e494"
-  integrity sha512-+c9pw77yTSfS65AdlKhYCXT1wPaatYEeKvyw6T0kpTD9GCExip2E/wV06imCgrloDiGhzZ+f7IqazLtxCJ8Tcw==
+"@huyuchen/visual@^1.5.10":
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/@huyuchen/visual/-/visual-1.5.10.tgz#3ecb4bc3fa7c851df0d03cf5fe75aa0b3e251ac0"
+  integrity sha512-I5LIetimTEFxyHLEgG3gOvAMCkZiWXheR1061MtdeelF+vIKyY2GpsEbD/Jnsf9HRExN3yUzae+8wlXtaS3yQA==
   dependencies:
     echarts "^5.4.2"
     element-plus "^2.3.4"
