@@ -177,8 +177,16 @@ export default defineConfig({
               link: "/components/base/HuPercentageSize",
             },
             {
-              text: "select下拉大数据量虚拟加载框",
+              text: "select下虚拟加载框",
               link: "/components/fun/HuVirtualSelect",
+            },
+            {
+              text: "select虚拟加载框+分页加载",
+              link: "/components/fun/HuVirtualSelectPage",
+            },
+            {
+              text: "select加载框+分页加载",
+              link: "/components/fun/HuSelectPage",
             },
           ],
         },
