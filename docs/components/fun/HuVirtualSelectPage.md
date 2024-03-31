@@ -2,6 +2,7 @@
 
 ---
 
+<ClientOnly>
 <HuVirtualSelectPage  
 filterable
 :pages="pages"
@@ -10,6 +11,7 @@ v-model="selectValue"
 :loading="loading"
 @pullUp="loadData"
 placeholder="请输入"></HuVirtualSelectPage>
+</ClientOnly>
 
 <script setup>
 import { onMounted, ref } from "vue"
