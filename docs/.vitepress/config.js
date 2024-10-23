@@ -148,6 +148,7 @@ export default defineConfig({
     nav: [
       { text: "指南", link: "/guild/introduce" },
       { text: "组件", link: "/components/base/HuLayoutTable" },
+      { text: "第三方组件", link: "/externalLink/components" },
     ],
     socialLinks: [{ text: "自定义组件库", icon: "github", link: "https://gitee.com/hu__lin/pnpm-package" }],
     sidebar: {
@@ -254,6 +255,26 @@ export default defineConfig({
             {
               text: "边框流动-svg",
               link: "/components/animation/HuBorderFlowSvg",
+            },
+          ],
+        },
+      ],
+      "/externalLink/": [
+        {
+          text: "外部链接",
+          items: [
+            {
+              text: "外部链接",
+              link: "/externalLink/components",
+            },
+          ],
+        },
+        {
+          text: "动画",
+          items: [
+            {
+              text: "块滚动",
+              link: "/externalLink/animation/blockScroll",
             },
           ],
         },
