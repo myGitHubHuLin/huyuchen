@@ -148,6 +148,7 @@ export default defineConfig({
     nav: [
       { text: "指南", link: "/guild/introduce" },
       { text: "组件", link: "/components/base/HuLayoutTable" },
+      { text: "编辑器", link: "/editor/base" },
       { text: "第三方组件", link: "/externalLink/components" },
     ],
     socialLinks: [{ text: "自定义组件库", icon: "github", link: "https://gitee.com/hu__lin/pnpm-package" }],
@@ -279,7 +280,18 @@ export default defineConfig({
           ],
         },
       ],
+      "/editor/": [
+        {
+          text: "编辑器",
+          items: [
+            {
+              text: "基础组件",
+              link: "/editor/base",
+            },
+          ],
+        },
+      ],
     },
   },
-  vite: { ssr: { noExternal: ["@huyuchen/visual"] } }, // "element-plus", "vue-virtual-scroller"
+  vite: { ssr: { noExternal: ["@huyuchen/visual", "@huyuchen/editor"] } }, // "element-plus", "vue-virtual-scroller"
 })
