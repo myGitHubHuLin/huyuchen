@@ -18,7 +18,7 @@
     "vue": "^3.3.4"
   },
   "dependencies": {
-    "@huyuchen/editor": "^1.0.5",
+    "@huyuchen/editor": "^1.0.6",
     "@huyuchen/visual": "^1.5.21",
     "element-plus": "^2.4.0",
     "naive-ui": "^2.34.3",

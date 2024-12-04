@@ -22,29 +22,29 @@
 import {HuMonacoBasePreview,HuMonacoBase} from "@huyuchen/editor" // 请根据实际路径进行调整
 import "@huyuchen/editor/dist/es/style.css" // 引入样式
 import { onMounted, ref } from "vue"
-import editorWorker from "monaco-editor/esm/vs/editor/editor.worker?worker"
-import jsonWorker from "monaco-editor/esm/vs/language/json/json.worker?worker"
-import cssWorker from "monaco-editor/esm/vs/language/css/css.worker?worker"
-import htmlWorker from "monaco-editor/esm/vs/language/html/html.worker?worker"
-import tsWorker from "monaco-editor/esm/vs/language/typescript/ts.worker?worker"
+// import editorWorker from "monaco-editor/esm/vs/editor/editor.worker?worker"
+// import jsonWorker from "monaco-editor/esm/vs/language/json/json.worker?worker"
+// import cssWorker from "monaco-editor/esm/vs/language/css/css.worker?worker"
+// import htmlWorker from "monaco-editor/esm/vs/language/html/html.worker?worker"
+// import tsWorker from "monaco-editor/esm/vs/language/typescript/ts.worker?worker"
 
-self.MonacoEnvironment = {
-  getWorker(_, label) {
-    if (label === "json") {
-      return new jsonWorker()
-    }
-    if (label === "css" || label === "scss" || label === "less") {
-      return new cssWorker()
-    }
-    if (label === "html" || label === "handlebars" || label === "razor") {
-      return new htmlWorker()
-    }
-    if (label === "typescript" || label === "javascript") {
-      return new tsWorker()
-    }
-    return new editorWorker()
-  },
-}
+// self.MonacoEnvironment = {
+//   getWorker(_, label) {
+//     if (label === "json") {
+//       return new jsonWorker()
+//     }
+//     if (label === "css" || label === "scss" || label === "less") {
+//       return new cssWorker()
+//     }
+//     if (label === "html" || label === "handlebars" || label === "razor") {
+//       return new htmlWorker()
+//     }
+//     if (label === "typescript" || label === "javascript") {
+//       return new tsWorker()
+//     }
+//     return new editorWorker()
+//   },
+// }
 const config = {
   automaticLayout: true, // 自适应布局
   theme: "vs-dark", // 官方自带三种主题vs, hc-black, or vs-dark
@@ -160,29 +160,29 @@ const runIframeRef = ref(null)
 import {HuMonacoBasePreview,HuMonacoBase} from "@huyuchen/editor" // 请根据实际路径进行调整
 import "@huyuchen/editor/dist/es/style.css" // 引入样式
 import { onMounted, ref } from "vue"
-import editorWorker from "monaco-editor/esm/vs/editor/editor.worker?worker"
-import jsonWorker from "monaco-editor/esm/vs/language/json/json.worker?worker"
-import cssWorker from "monaco-editor/esm/vs/language/css/css.worker?worker"
-import htmlWorker from "monaco-editor/esm/vs/language/html/html.worker?worker"
-import tsWorker from "monaco-editor/esm/vs/language/typescript/ts.worker?worker"
+// import editorWorker from "monaco-editor/esm/vs/editor/editor.worker?worker"
+// import jsonWorker from "monaco-editor/esm/vs/language/json/json.worker?worker"
+// import cssWorker from "monaco-editor/esm/vs/language/css/css.worker?worker"
+// import htmlWorker from "monaco-editor/esm/vs/language/html/html.worker?worker"
+// import tsWorker from "monaco-editor/esm/vs/language/typescript/ts.worker?worker"
 
-self.MonacoEnvironment = {
-  getWorker(_, label) {
-    if (label === "json") {
-      return new jsonWorker()
-    }
-    if (label === "css" || label === "scss" || label === "less") {
-      return new cssWorker()
-    }
-    if (label === "html" || label === "handlebars" || label === "razor") {
-      return new htmlWorker()
-    }
-    if (label === "typescript" || label === "javascript") {
-      return new tsWorker()
-    }
-    return new editorWorker()
-  },
-}
+// self.MonacoEnvironment = {
+//   getWorker(_, label) {
+//     if (label === "json") {
+//       return new jsonWorker()
+//     }
+//     if (label === "css" || label === "scss" || label === "less") {
+//       return new cssWorker()
+//     }
+//     if (label === "html" || label === "handlebars" || label === "razor") {
+//       return new htmlWorker()
+//     }
+//     if (label === "typescript" || label === "javascript") {
+//       return new tsWorker()
+//     }
+//     return new editorWorker()
+//   },
+// }
 const config = {
   automaticLayout: true, // 自适应布局
   theme: "vs-dark", // 官方自带三种主题vs, hc-black, or vs-dark
