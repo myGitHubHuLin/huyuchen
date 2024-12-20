@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@huyuchen/editor':
-    specifier: ^1.0.6
-    version: 1.0.6(monaco-editor@0.52.0)(vue@3.5.13)
+    specifier: ^1.0.7
+    version: 1.0.7(monaco-editor@0.52.0)(vue@3.5.13)
   '@huyuchen/visual':
     specifier: ^1.5.21
     version: 1.5.21(echarts@5.5.1)(element-plus@2.9.0)(lodash.merge@4.6.2)(lodash.throttle@4.1.1)(vue-virtual-scroller@2.0.0-beta.8)(vue@3.5.13)
@@ -507,10 +507,10 @@ packages:
     resolution: {integrity: sha512-kym7SodPp8/wloecOpcmSnWJsK7M0E5Wg8UcFA+uO4B9s5d0ywXOEro/8HM9x0rW+TljRzul/14UYz3TleT3ig==}
     dev: false
 
-  /@huyuchen/editor@1.0.6(monaco-editor@0.52.0)(vue@3.5.13):
-    resolution: {integrity: sha512-cn7h8W1sDh9s7tu6C8jFcsfjMvIPUDyD8z1lFgdajp7L1ba4CSprDOWKeIbEfd1myl58oml5yAq0kjud3KoanA==}
+  /@huyuchen/editor@1.0.7(monaco-editor@0.52.0)(vue@3.5.13):
+    resolution: {integrity: sha512-+TnY1/FL85bNbq7jDrFERt41yGRW29ntqyPHWcENPtOMAPmBCHFSKX5Zqb+8WIWu76ab8aZcDk4YIfSghtj+ew==}
     peerDependencies:
-      monaco-editor: ^0.45.0
+      monaco-editor: ^0.52.0
       vue: ^3.4.21
     dependencies:
       '@rollup/plugin-commonjs': 28.0.1
