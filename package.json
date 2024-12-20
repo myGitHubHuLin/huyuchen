@@ -21,7 +21,6 @@
     "@huyuchen/editor": "^1.0.7",
     "@huyuchen/visual": "^1.5.21",
     "element-plus": "^2.4.0",
-    "monaco-editor": "^0.52.0",
     "naive-ui": "^2.34.3",
     "sass": "^1.62.1"
   }
