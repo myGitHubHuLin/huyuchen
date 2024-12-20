@@ -15,6 +15,7 @@ export default defineConfig({
     nav: [
       { text: "指南", link: "/guild/introduce" },
       { text: "组件", link: "/components/base/HuLayoutTable" },
+      { text: "方法", link: "/utils/cloneDeep" },
       { text: "编辑器", link: "/editor/base" },
       { text: "第三方组件", link: "/externalLink/components" },
     ],
@@ -154,6 +155,21 @@ export default defineConfig({
             {
               text: "基础组件",
               link: "/editor/base",
+            },
+          ],
+        },
+      ],
+      "/utils/": [
+        {
+          text: "方法",
+          items: [
+            {
+              text: "深度克隆",
+              link: "/utils/cloneDeep",
+            },
+            {
+              text: "单例模式",
+              link: "/utils/singleton",
             },
           ],
         },
