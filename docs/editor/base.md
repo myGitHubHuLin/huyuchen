@@ -19,8 +19,8 @@
   <HuMonacoBasePreview ref="runIframeRef" :options="runIframeOptions" :pre-settings="preSettings"></HuMonacoBasePreview>
 
  <script setup>
-import {HuMonacoBasePreview,HuMonacoBase} from "@huyuchen/editor" // 请根据实际路径进行调整
-import "@huyuchen/editor/dist/es/style.css" // 引入样式
+// import {HuMonacoBasePreview,HuMonacoBase} from "@huyuchen/editor" // 请根据实际路径进行调整
+// import "@huyuchen/editor/dist/es/style.css" // 引入样式
 import { onMounted, ref } from "vue"
 // import editorWorker from "monaco-editor/esm/vs/editor/editor.worker?worker"
 // import jsonWorker from "monaco-editor/esm/vs/language/json/json.worker?worker"
@@ -157,8 +157,8 @@ const runIframeRef = ref(null)
   <HuMonacoBasePreview ref="runIframeRef" :options="runIframeOptions" :pre-settings="preSettings"></HuMonacoBasePreview>
 
  <script setup>
-import {HuMonacoBasePreview,HuMonacoBase} from "@huyuchen/editor" // 请根据实际路径进行调整
-import "@huyuchen/editor/dist/es/style.css" // 引入样式
+// import {HuMonacoBasePreview,HuMonacoBase} from "@huyuchen/editor" // 请根据实际路径进行调整
+// import "@huyuchen/editor/dist/es/style.css" // 引入样式
 import { onMounted, ref } from "vue"
 // import editorWorker from "monaco-editor/esm/vs/editor/editor.worker?worker"
 // import jsonWorker from "monaco-editor/esm/vs/language/json/json.worker?worker"
