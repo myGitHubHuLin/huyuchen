@@ -160,5 +160,5 @@ export default defineConfig({
       ],
     },
   },
-  vite: { ssr: { noExternal: ["@huyuchen/visual", "@huyuchen/editor"] } }, // "element-plus", "vue-virtual-scroller"
+  vite: { ssr: { noExternal: ["@huyuchen/visual"] } }, // "element-plus", "vue-virtual-scroller"
 })
